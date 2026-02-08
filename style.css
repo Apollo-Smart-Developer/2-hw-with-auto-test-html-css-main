@@ -58,6 +58,16 @@ header span {
 
 select {
     /* Стили для выпадающего списка */
+    list-style-image: url(assets/images/row-one.svg);
+    background-repeat: no-repeat;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 150px;
+    background: rgba(255, 255, 255, 0);
+
 }
 
 .section-title {
@@ -73,7 +83,8 @@ select {
     margin-left: 22px;
     font-weight: 400;
     font-size: 16px;
-    width: 424px;
+
+    background-repeat: no-repeat;
 }
 
 .books-list {
